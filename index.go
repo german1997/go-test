@@ -16,5 +16,4 @@ func main() {
 	engine.GET("/beers/:id/boxprice", api.BoxPrice)
 
 	http.ListenAndServe("0.0.0.0:8080", (engine))
-
 }
